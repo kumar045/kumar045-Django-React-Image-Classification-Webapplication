@@ -22,3 +22,20 @@ In order to run the application Type the following command
 npm start
 
 The Application Runs on localhost:3000
+
+For Django
+
+Download the files from this repo
+
+Change the directory to the folder where you downloaded files
+
+For installing required packages, execute the following command in terminal:
+
+$pip install -r requirements.txt
+After successful installation execute the following commands:
+
+$python manage.py migrate
+$python manage.py runserver
+
+HTTP client
+axios library is used to make HTTP Calls from react app to upload image for classification
