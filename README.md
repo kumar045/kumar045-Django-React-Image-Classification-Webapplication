@@ -32,3 +32,5 @@ $python manage.py runserver
 
 HTTP client
 axios library is used to make HTTP Calls from react app to upload image for classification
+
+Used tensorflow for classification model
