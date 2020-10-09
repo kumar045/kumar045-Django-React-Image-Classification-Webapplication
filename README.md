@@ -30,7 +30,8 @@ After successful installation execute the following commands:
 $python manage.py migrate
 $python manage.py runserver
 
-HTTP client
-axios library is used to make HTTP Calls from react app to upload image for classification
+HTTP client 
+
+axios library is used to make HTTP Calls from react app to upload image for classification and to get classification result
 
 Used tensorflow for classification model
